@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificação de Produtos</title>
+</head>
+<body>
+    <h1>Verificação de Produtos</h1>
+
+    <!-- Buscar produto pelo nome -->
+    <p>Digite o nome de um produto:</p>
+    <input type="text" id="nomeProduto" placeholder="Exemplo: Chocolate">
+    <button id="buscarProduto">Buscar Produto</button>
+
+    <!-- Filtrar produtos por preço menor que R$8 -->
+    <p>Ou clique para listar produtos com preço menor que R$8,00:</p>
+    <button id="filtrarProdutos">Filtrar Produtos Baratos</button>
+
+    <!-- Buscar produtos com preço exato de R$20 -->
+    <p>Ou clique para listar produtos com preço igual a R$20,00:</p>
+    <button id="buscarPrecoExato">Buscar Produtos com Preço de R$20,00</button>
+
+    <!-- Área de resultado -->
+    <div id="resultado"></div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
